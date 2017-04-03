@@ -1,0 +1,45 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Macondo, cursive;
+    color: orange;
+    text-shadow:  10px 10px 30px black;
+}
+
+h2 {
+    font-family: Macondo, cursive;
+    color: orange;
+    text-shadow:  10px 10px 30px black;
+}
+
+@media(min-width:992px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media(min-width:1200px) {
+    h1 {
+        font-size: 100px;
+    }
+}
+
+#landing {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(150, 75, 0, 0.5), rgba(150, 75, 0, 0.5)), url(img/balloon-2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+}
