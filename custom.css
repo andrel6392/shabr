@@ -4,14 +4,14 @@ body {
     height: 100%;
 }
 
-h1 {
+#landing h1 {
     font-size: 60px;
     font-family: Macondo, cursive;
     color: orange;
     text-shadow:  10px 10px 30px black;
 }
 
-h2 {
+#landing h2 {
     font-family: Macondo, cursive;
     color: orange;
     text-shadow:  10px 10px 30px black;
@@ -57,4 +57,8 @@ h2 {
     vertical-align: middle;
     display: table-cell;
     color: white;
+}
+
+.jumbotron {
+    padding-top: 0px;
 }
