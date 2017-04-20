@@ -2,16 +2,40 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background-color: black;
+    background: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%), url(img/shabr.jpg), center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cover-up {
+    font-family: Macondo, cursive;
+    background-color: #ACD0C0;
+    color: #4F6457;
+}
+
+#time,
+#weather,
+#flight,
+#participation {
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #D9B44A;
+    padding-top: 0px;
+    width: 500px;
+    height: 225px;
+    background-color: #4F6457;
 }
 
 #landing h1 {
     font-family: Macondo, cursive;
-    color: #263238;
+    color: #D9B44A;
 }
 
 #landing h2 {
     font-family: Macondo, cursive;
-    color: #263238;
+    color: #D9B44A;
 }
 
 @media(min-width:0px) {
@@ -54,7 +78,7 @@ body {
     display: table;
     width: 100%;
     height: 100%;
-    background: linear-gradient( rgba(207,216,220,0.4), rgba(207,216,220,0.4)), url(img/balloon-2.jpg) no-repeat center;
+    background: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%), url(img/balloon-2.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -68,10 +92,47 @@ body {
 .jumbotron {
     width: 100%;
     padding: 10px 0px;
-    background-color: #607d8b;
+    background-color: #4F6457;
     margin-top: 10px;
 }
 
-.glyphicon .glyphicon-time{
-    width: 100px;
+blockquote,
+p {
+    font-family: Spirax;
+    font-size: 20px;
+    color: white;
+}
+
+h3 {
+    color: #ACD0C0;
+}
+
+h2 {
+    color: #ACD0C0;
+    font-family: Macondo;
+}
+
+#testimonials p {
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #D9B44A;
+    padding: 20px;
+    width: 500px;
+    height: 120px;
+    background-color: #4F6457;
+}
+
+#contact p {
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #D9B44A;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    background-color: #4F6457;
+}
+
+.copyright {
+    font-size: 20px;
+    background-color: #D9B44A;
 }
